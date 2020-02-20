@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-19 19:30:34</sys_created_on>
+        <sys_id>49a38c82db43001097340181ca961959</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_435885_mvp_dsh_user.x_435885_mvp.dsh_user_user</sys_name>
+        <sys_package display_value="MVP" source="x_435885_mvp">ea510042db43001097340181ca96192d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MVP">ea510042db43001097340181ca96192d</sys_scope>
+        <sys_security_acl display_value="x_435885_mvp_dsh_user">8da38c82db43001097340181ca961956</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_49a38c82db43001097340181ca961959</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-19 19:30:34</sys_updated_on>
+        <sys_user_role display_value="x_435885_mvp.dsh_user_user" name="x_435885_mvp.dsh_user_user">60a34c82db43001097340181ca9619e7</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

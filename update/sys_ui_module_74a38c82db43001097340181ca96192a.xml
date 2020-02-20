@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="dsh_user">30a38c82db43001097340181ca961928</application>
+        <filter/>
+        <name>dsh_users</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_435885_mvp.dsh_user_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-19 19:30:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>74a38c82db43001097340181ca96192a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>dsh_users</sys_name>
+        <sys_package display_value="MVP" source="x_435885_mvp">ea510042db43001097340181ca96192d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MVP">ea510042db43001097340181ca96192d</sys_scope>
+        <sys_update_name>sys_ui_module_74a38c82db43001097340181ca96192a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-19 19:30:34</sys_updated_on>
+        <table>x_435885_mvp_dsh_user</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+</record_update>

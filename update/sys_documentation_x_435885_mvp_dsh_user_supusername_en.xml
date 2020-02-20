@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="supusername" label="SupUserName" language="en" table="x_435885_mvp_dsh_user">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>supusername</element>
+            <help/>
+            <hint/>
+            <label>SupUserName</label>
+            <language>en</language>
+            <name>x_435885_mvp_dsh_user</name>
+            <plural>SupUserNames</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-19 19:30:34</sys_created_on>
+            <sys_id>4da38c82db43001097340181ca961967</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>SupUserName</sys_name>
+            <sys_package display_value="MVP" source="x_435885_mvp">ea510042db43001097340181ca96192d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MVP">ea510042db43001097340181ca96192d</sys_scope>
+            <sys_update_name>sys_documentation_x_435885_mvp_dsh_user_supusername_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-19 19:30:34</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Look for records that have been updated more than 6 months ago.</description>
+        <internal_name>look_for_outdated</internal_name>
+        <label_cache>[{"name":"f5360ef9-66f8-4c6f-9d9d-84805adcbec8.email","label":"2➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference"},{"name":"ba7db231-9ec6-4480-9d05-2d16e481f7cf.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"ba7db231-9ec6-4480-9d05-2d16e481f7cf.Table","label":"1➛dsh_user Table","reference":"x_435885_mvp_dsh_user","reference_display":"dsh_user","type":"table_name","base_type":"table_name"},{"name":"ba7db231-9ec6-4480-9d05-2d16e481f7cf.Records","label":"1➛dsh_user Records","reference":"x_435885_mvp_dsh_user","reference_display":"dsh_user","type":"records","base_type":"records"}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Look_For_Outdated</name>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-19 19:35:43</sys_created_on>
+        <sys_id>dcd4c082db43001097340181ca9619a5</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Look_For_Outdated</sys_name>
+        <sys_package display_value="MVP" source="x_435885_mvp">ea510042db43001097340181ca96192d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MVP">ea510042db43001097340181ca96192d</sys_scope>
+        <sys_update_name>sys_hub_flow_dcd4c082db43001097340181ca9619a5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-19 21:47:35</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=dcd4c082db43001097340181ca9619a5"/>
+    <sys_variable_value action="delete_multiple" query="document_key=dcd4c082db43001097340181ca9619a5"/>
+</record_update>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <conditional>false</conditional>
+        <name>Find_Outdated</name>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2020-02-19 21:59:33</run_start>
+        <run_time>1970-01-01 08:00:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[// Get today's time and date
+//var rightNow = new GlideDateTime();
+
+
+// Query the database for dsh_user records with last updated field value > 6 months.
+var outdated = new GlideRecord('x_435885_mvp_dsh_user');
+outdated.addQuery('lastupdated','<=',gs.monthsAgo(6));
+outdated.query();
+// Write a log message for each outdated user record
+// Add the event
+while(outdated.next()){
+	gs.info("MVP outdated record = " + outdated.username + "/" + outdated.supusername + "/" + outdated.lastupdated);
+	gs.eventQueue('x_435885_mvp.outdatedUsers',outdated,outdated.lastupdated,gs.getUserName());
+}
+]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-19 22:08:49</sys_created_on>
+        <sys_id>2fb5e44adb83001097340181ca961967</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>Find_Outdated</sys_name>
+        <sys_package display_value="MVP" source="x_435885_mvp">ea510042db43001097340181ca96192d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MVP">ea510042db43001097340181ca96192d</sys_scope>
+        <sys_update_name>sysauto_script_2fb5e44adb83001097340181ca961967</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-19 23:24:37</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>
