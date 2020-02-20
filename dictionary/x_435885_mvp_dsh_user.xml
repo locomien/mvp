@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="dsh_user" max_length="40" name="x_435885_mvp_dsh_user" type="collection">
-        <element display="true" label="LastUpdated" max_length="40" name="lastupdated" type="glide_date"/>
+        <element label="LastUpdated" max_length="40" name="lastupdated" type="glide_date"/>
+        <element display="true" label="NeedsManualUpdate" max_length="40" name="needs_manual_update" type="boolean"/>
         <element label="SupUserName" max_length="30" name="supusername" type="string"/>
         <element label="UserName" max_length="30" name="username" type="string"/>
     </element>
