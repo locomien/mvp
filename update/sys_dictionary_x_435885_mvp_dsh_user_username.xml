@@ -22,7 +22,7 @@
         <delete_roles/>
         <dependent/>
         <dependent_on_field/>
-        <display>false</display>
+        <display>true</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
         <dynamic_default_value/>
@@ -53,7 +53,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-19 19:30:32</sys_created_on>
-        <sys_id>bea10c46db03001097340181ca9619d4</sys_id>
+        <sys_id>0a1cc59edbcf8c10184daf26489619e2</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>UserName</sys_name>
         <sys_package display_value="MVP" source="x_435885_mvp">ea510042db43001097340181ca96192d</sys_package>
@@ -61,7 +61,7 @@
         <sys_scope display_value="MVP">ea510042db43001097340181ca96192d</sys_scope>
         <sys_update_name>sys_dictionary_x_435885_mvp_dsh_user_username</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-19 19:30:33</sys_updated_on>
+        <sys_updated_on>2020-02-20 23:04:23</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
