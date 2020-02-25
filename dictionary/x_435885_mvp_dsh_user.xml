@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="dsh_user" max_length="40" name="x_435885_mvp_dsh_user" type="collection">
-        <element label="LastUpdated" max_length="40" name="lastupdated" type="glide_date"/>
-        <element label="NeedsManualUpdate" max_length="40" name="needs_manual_update" type="boolean"/>
-        <element label="Supervisor" max_length="32" name="supervisor" reference="x_435885_mvp_dsh_user" type="reference"/>
-        <element label="SupUserName" max_length="30" name="supusername" reference="x_435885_mvp_dsh_user" type="reference"/>
+    <element attributes="ref_auto_completer=AJAXTableCompleter,ref_ac_columns=emailaddress,ref_ac_columns_search=true,ref_ac_order_by=username" label="dsh_user" max_length="40" name="x_435885_mvp_dsh_user" type="collection">
+        <element label="EmailAddress" max_length="100" name="emailaddress" type="string"/>
+        <element label="LastUpdated" max_length="40" name="lastupdated" type="glide_date_time"/>
+        <element label="NeedsCHaRMSUpdate" max_length="40" name="needscharmsupdate" type="boolean"/>
+        <element label="SupEmailAddress" max_length="100" name="supemailaddress" read_only="true" type="string"/>
+        <element label="SupUserName" max_length="32" name="supusername" reference="x_435885_mvp_dsh_user" type="reference"/>
         <element display="true" label="UserName" max_length="30" name="username" type="string"/>
         <index name="index">
-            <element name="supervisor"/>
+            <element name="supusername"/>
         </index>
     </element>
 </database>

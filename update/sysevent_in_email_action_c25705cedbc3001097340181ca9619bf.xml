@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_in_email_action">
     <sysevent_in_email_action action="INSERT_OR_UPDATE">
         <action>record_action</action>
-        <active>false</active>
+        <active>true</active>
         <assignment_operator/>
         <condition_script/>
         <description/>
@@ -17,8 +17,9 @@
         <required_roles/>
         <script><![CDATA[(function runAction(/*GlideRecord*/ current, /*GlideRecord*/ event, /*EmailWrapper*/ email, /*ScopedEmailLogger*/ logger, /*EmailClassifier*/ classifier) {
 
-current.supusername = "";
-current.lastupdated = rightNow;
+	var rightnow = GlideDateTime();
+	//gs.info(rightnow);
+	current.lastupdated = rightnow;
 
 })(current, event, email, logger, classifier);]]></script>
         <stop_processing>false</stop_processing>
@@ -28,7 +29,7 @@ current.lastupdated = rightNow;
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c25705cedbc3001097340181ca9619bf</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>IncorrectSupervisor</sys_name>
         <sys_overrides/>
         <sys_package display_value="MVP" source="x_435885_mvp">ea510042db43001097340181ca96192d</sys_package>
@@ -36,9 +37,9 @@ current.lastupdated = rightNow;
         <sys_scope display_value="MVP">ea510042db43001097340181ca96192d</sys_scope>
         <sys_update_name>sysevent_in_email_action_c25705cedbc3001097340181ca9619bf</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-20 22:57:41</sys_updated_on>
+        <sys_updated_on>2020-02-25 16:55:28</sys_updated_on>
         <table>x_435885_mvp_dsh_user</table>
-        <template/>
+        <template>supusername=^supemailaddress=^EQ</template>
         <type>reply</type>
     </sysevent_in_email_action>
 </record_update>

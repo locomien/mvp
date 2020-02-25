@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="supervisor" label="Supervisor" language="en" table="x_435885_mvp_dsh_user">
+    <sys_documentation element="supemailaddress" label="SupEmailAddress" language="en" table="x_435885_mvp_dsh_user">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>supervisor</element>
+            <element>supemailaddress</element>
             <help/>
             <hint/>
-            <label>Supervisor</label>
+            <label>SupEmailAddress</label>
             <language>en</language>
             <name>x_435885_mvp_dsh_user</name>
-            <plural>Supervisors</plural>
+            <plural>SupEmailAddress</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-02-20 23:12:20</sys_created_on>
-            <sys_id>0bffb11edb83cc10184daf264896191c</sys_id>
+            <sys_created_on>2020-02-24 23:29:46</sys_created_on>
+            <sys_id>e15ae26fdb0b8050184daf264896197b</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Supervisor</sys_name>
+            <sys_name>SupEmailAddress</sys_name>
             <sys_package display_value="MVP" source="x_435885_mvp">ea510042db43001097340181ca96192d</sys_package>
             <sys_policy/>
             <sys_scope display_value="MVP">ea510042db43001097340181ca96192d</sys_scope>
-            <sys_update_name>sys_documentation_x_435885_mvp_dsh_user_supervisor_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_435885_mvp_dsh_user_supemailaddress_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-02-20 23:12:20</sys_updated_on>
+            <sys_updated_on>2020-02-24 23:29:46</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

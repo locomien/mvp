@@ -46,9 +46,9 @@
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>
-        <recipient_fields/>
+        <recipient_fields>supemailaddress</recipient_fields>
         <recipient_groups/>
-        <recipient_users>Lo.Saelee@dsh.ca.gov,david.hampton@dsh.ca.gov,lalantha.sathkumara@dsh.ca.gov</recipient_users>
+        <recipient_users/>
         <reply_to/>
         <send_self>true</send_self>
         <sms_alternate/>
@@ -61,7 +61,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>121af886dbc3001097340181ca961993</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>Outdated User/Supervisor Updated Date</sys_name>
         <sys_overrides/>
         <sys_package display_value="MVP" source="x_435885_mvp">ea510042db43001097340181ca96192d</sys_package>
@@ -69,7 +69,7 @@
         <sys_scope display_value="MVP">ea510042db43001097340181ca96192d</sys_scope>
         <sys_update_name>sysevent_email_action_121af886dbc3001097340181ca961993</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-20 22:59:18</sys_updated_on>
+        <sys_updated_on>2020-02-25 15:39:40</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>
