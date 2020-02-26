@@ -4,7 +4,7 @@
         <element label="LastUpdated" max_length="40" name="lastupdated" type="glide_date_time"/>
         <element label="NeedsCHaRMSUpdate" max_length="40" name="needscharmsupdate" type="boolean"/>
         <element label="SupEmailAddress" max_length="100" name="supemailaddress" read_only="true" type="string"/>
-        <element label="SupUserName" max_length="32" name="supusername" reference="x_435885_mvp_dsh_user" type="reference"/>
+        <element label="SupUserName" max_length="32" name="supusername" reference="sys_user" type="reference"/>
         <element display="true" label="U_username" max_length="32" name="u_username" reference="sys_user" type="reference"/>
         <index name="index">
             <element name="supusername"/>
