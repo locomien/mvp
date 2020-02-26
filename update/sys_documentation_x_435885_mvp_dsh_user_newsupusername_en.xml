@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="needscharmsupdate" label="NeedsCHaRMSUpdate" language="en" table="x_435885_mvp_dsh_user">
+    <sys_documentation element="newsupusername" label="NewSupUserName" language="en" table="x_435885_mvp_dsh_user">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>needscharmsupdate</element>
+            <element>newsupusername</element>
             <help/>
             <hint/>
-            <label>NeedsCHaRMSUpdate</label>
+            <label>NewSupUserName</label>
             <language>en</language>
             <name>x_435885_mvp_dsh_user</name>
-            <plural>NeedsCHaRMSUpdates</plural>
+            <plural>NewSupUserNames</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-02-24 22:57:07</sys_created_on>
-            <sys_id>efa47344db13001097340181ca9619f4</sys_id>
+            <sys_created_on>2020-02-26 21:11:19</sys_created_on>
+            <sys_id>3cdd9410db93001097340181ca961917</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>NeedsCHaRMSUpdate</sys_name>
+            <sys_name>NewSupUserName</sys_name>
             <sys_package display_value="MVP" source="x_435885_mvp">ea510042db43001097340181ca96192d</sys_package>
             <sys_policy/>
             <sys_scope display_value="MVP">ea510042db43001097340181ca96192d</sys_scope>
-            <sys_update_name>sys_documentation_x_435885_mvp_dsh_user_needscharmsupdate_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_435885_mvp_dsh_user_newsupusername_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-02-24 22:57:07</sys_updated_on>
+            <sys_updated_on>2020-02-26 21:11:19</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

@@ -30,22 +30,39 @@ while(source.next()){
 		}//end of if 
 	else
 		{
-			//are we updating exsiting records if 
+			//user exists
+			var existing = new GlideRecord('x_435885_mvp_dsh_user');
+			existing.addQuery("u_username",source.sys_id);
+			existing.query();			
+			gs.info("Email is : " + existing.getRowCount() + " " + existing.emailaddress);
+			
+			/*if(existing.emailaddress != source.email)
+				{
+					existing.emailaddress = source.email;
+					
+				}
+			if(destination.supusername != source.manager.sys_id)
+				{
+					destination.supusername = source.manager.sys_id;
+					destination.update();
+				}			
+			*/
+			
 			//user email has changed or if AD manager info changed??
 		}
-}//end of while]]></script>
+}]]></script>
         <sys_class_name>sysauto_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-25 23:10:17</sys_created_on>
         <sys_id>bf5e2b3fdb87c050184daf264896193c</sys_id>
-        <sys_mod_count>27</sys_mod_count>
+        <sys_mod_count>40</sys_mod_count>
         <sys_name>Copy_sys_user_data</sys_name>
         <sys_package display_value="MVP" source="x_435885_mvp">ea510042db43001097340181ca96192d</sys_package>
         <sys_policy/>
         <sys_scope display_value="MVP">ea510042db43001097340181ca96192d</sys_scope>
         <sys_update_name>sysauto_script_bf5e2b3fdb87c050184daf264896193c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-26 16:23:44</sys_updated_on>
+        <sys_updated_on>2020-02-26 22:03:49</sys_updated_on>
         <upgrade_safe>false</upgrade_safe>
     </sysauto_script>
 </record_update>
